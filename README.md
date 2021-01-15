@@ -6,4 +6,4 @@ Metadata to describes core entities defined by [International Organization for S
 Initially created for [DataTug.app](https://datatug.app)
 
 ## LICENSE
-Created & publihsed under [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](LICENSE)
+Created & published under [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](LICENSE)
