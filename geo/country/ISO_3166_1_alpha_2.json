@@ -1,0 +1,72 @@
+{
+  "type": "string",
+  "description": "ISO 3166-1 alpha-2 codes are two-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard[1] published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.",
+  "links": {
+    "wikipedia": {
+      "de": "https://de.wikipedia.org/wiki/ISO-3166-1-Kodierliste",
+      "en": "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+      "fr": "https://fr.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+      "ru": "https://ru.wikipedia.org/wiki/ISO_3166-1_alpha-2"
+    }
+  },
+  "restrictions": {
+    "minLength": 2,
+    "maxLength": 2,
+    "regex": "[A-Z]{2}"
+  },
+  "options": {
+    "sources": [
+      {
+        "contentType": "json",
+        "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-2/slim-2.json",
+        "mapping": {
+          "id": "alpha-2",
+          "title": "name"
+        }
+      },
+      {
+        "contentType": "csv",
+        "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-2/slim-2.csv",
+        "mapping": {
+          "id": "alpha-2",
+          "title": "name",
+          "hasHeader": true
+        }
+      },
+      {
+        "contentType": "xml",
+        "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-2/slim-2.xml",
+        "mapping": {
+          "id": "countries/country@alpha-2",
+          "title": "countries/country@name"
+        }
+      }
+    ],
+    "values": [
+      {
+        "id": "AD",
+        "title": "Andorra"
+      },
+      {
+        "id": "GB",
+        "title": "United Kingdom of Great Britain and Northern Ireland"
+      },
+      {
+        "id": "IE",
+        "title": "Ireland"
+      },
+      {
+        "id": "RU",
+        "title": "Russian Federation"
+      },
+      {
+        "id": "US",
+        "title": "United States of America"
+      },
+      {
+        "id": "ZW",
+        "title": "Zimbabwe"
+      }
+    ]
+  }
+}
