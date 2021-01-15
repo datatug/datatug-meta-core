@@ -19,6 +19,7 @@
       {
         "contentType": "json",
         "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-2/slim-2.json",
+        "source": "https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes",
         "mapping": {
           "id": "alpha-2",
           "title": "name"
@@ -27,6 +28,7 @@
       {
         "contentType": "csv",
         "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-2/slim-2.csv",
+        "source": "https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes",
         "mapping": {
           "id": "alpha-2",
           "title": "name",
@@ -36,6 +38,7 @@
       {
         "contentType": "xml",
         "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-2/slim-2.xml",
+        "source": "https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes",
         "mapping": {
           "id": "countries/country@alpha-2",
           "title": "countries/country@name"
