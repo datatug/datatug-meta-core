@@ -3,10 +3,12 @@
   "fields": [
     {
       "id": "alpha2",
+      "type": "string",
       "url": "fields/ISO_3166_1_alpha_2.json"
     },
     {
       "id": "alpha3",
+      "type": "string",
       "url": "fields/ISO_3166_1_alpha_3.json"
     },
     {
