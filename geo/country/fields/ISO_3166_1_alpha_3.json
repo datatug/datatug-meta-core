@@ -1,0 +1,46 @@
+{
+  "type": "string",
+  "description": "ISO 3166-1 alpha-3 codes are two-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard[1] published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.",
+  "links": {
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3"
+    }
+  },
+  "restrictions": {
+    "minLength": 3,
+    "maxLength": 3,
+    "regex": "[A-Z]{3}"
+  },
+  "options": {
+    "sources": [
+      {
+        "contentType": "json",
+        "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-3/slim-3.json",
+        "source": "https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes",
+        "mapping": {
+          "id": "alpha-3",
+          "title": "name"
+        }
+      },
+      {
+        "contentType": "csv",
+        "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-3/slim-3.csv",
+        "source": "https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes",
+        "mapping": {
+          "id": "alpha-3",
+          "title": "name",
+          "hasHeader": true
+        }
+      },
+      {
+        "contentType": "xml",
+        "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-3/slim-3.xml",
+        "source": "https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes",
+        "mapping": {
+          "id": "countries/country@alpha-3",
+          "title": "countries/country@name"
+        }
+      }
+    ]
+  }
+}
