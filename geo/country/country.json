@@ -2,6 +2,10 @@
   "title": "Country",
   "fields": [
     {
+      "id": "region",
+      "type": "string"
+    },
+    {
       "id": "alpha2",
       "type": "string",
       "url": "fields/ISO_3166_1_alpha_2.json"
@@ -27,6 +31,7 @@
         "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.json",
         "source": "https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes",
         "mapping": {
+          "region": "region",
           "alpha-2": "alpha2",
           "alpha-3": "alpha3",
           "name": "name"
